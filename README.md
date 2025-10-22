@@ -23,12 +23,17 @@ pyinstaller main.py --hidden-import=tkinter --onefile --windowed --add-data "../
 Open up the dist file to find an executable file with your desired name, and open it.
 
 On program start, a file named "login_info.xlsx" will be on your Desktop.  
+
 Enter text into the Website, Username, and Password entry fields.  
+
 Press the "Record Login Info" button to record the info into the database and the file.  
+
 Press the "Open Login File" button to open up the "login_info.xlsx" file and see the information in tabular format.  
+
 Press the "Delete ALL Login Info" button to delete all login information off the database.  
 (WARNING: All login information stored in the database will be deleted, your login info will be LOST FOREVER!)  
 You will be prompted to click "Ok" or "Cancel" to prevent accidental data deletion.  
+
 When you quit the program, the "login_info.xlsx" file is automatically deleted (but your info isn't!).  
 
 ## Contact
