@@ -1,7 +1,7 @@
 # LOGIN MANAGER
 A Python program using SQL to keep a database of a user's login information for various websites.  
-Users can input their login information into the database or retrieve it from the database.  
-The program will save the login information and automatically delete the vulnerable login info file when the program closes. 
+Users can input their login information into the database or retrieve it from the database in the form of an Excel file.  
+The program will save the login information and automatically delete the Excel file when the program closes while remembering the login information within. 
 
 ## INSTALLATION
 Use package manager pip to install the following:
